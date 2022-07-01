@@ -13,6 +13,7 @@
     "demo": "esrun src/demo.ts",
     "test": "npx jest",
     "build": "npx tsc",
+    "postinstall": "npm run build",
     "clean": "npx tsc --build --clean",
     "do-lint": "pnpm run lint",
     "do-lintfix": "pnpm run lintfix",
