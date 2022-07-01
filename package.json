@@ -26,6 +26,7 @@
     "apis",
     "test-runner"
   ],
+  "files": ["/lib"],
   "license": "MIT",
   "dependencies": {
     "fp-ts": "^2.11.8",
