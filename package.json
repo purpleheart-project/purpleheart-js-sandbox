@@ -1,6 +1,6 @@
 {
-  "name": "arex-js-sandbox",
-  "version": "1.0.3",
+  "name": "purpleheart-js-sandbox",
+  "version": "1.0.4",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/",
