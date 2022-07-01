@@ -1,6 +1,6 @@
 {
   "name": "purpleheart-js-sandbox",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/",
@@ -13,6 +13,7 @@
     "demo": "esrun src/demo.ts",
     "test": "npx jest",
     "build": "npx tsc",
+    "preinstall": "npm run build",
     "clean": "npx tsc --build --clean",
     "do-lint": "pnpm run lint",
     "do-lintfix": "pnpm run lintfix",
