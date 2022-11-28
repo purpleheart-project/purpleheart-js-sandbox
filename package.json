@@ -1,10 +1,17 @@
 {
   "name": "purpleheart-js-sandbox",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "main": "./lib/index.js",
+  "module": "./lib/index.mjs",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "default": "./lib/index.mjs"
+    }
+  },
   "types": "./lib/",
-  "type": "module",
   "engines": {
     "node": ">=14",
     "pnpm": ">=3"
