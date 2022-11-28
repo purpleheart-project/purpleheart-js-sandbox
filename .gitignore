@@ -5,3 +5,4 @@ dist
 lib
 .idea
 pnpm-lock.yaml
+package-lock.json
